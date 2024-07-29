@@ -1,4 +1,8 @@
-
+/**{
+    margin: ;
+    padding;
+    box-sizing:border-box
+}*/
 h1{
     font-size: 28px;
     text-transform: uppercase;
@@ -10,6 +14,9 @@ h1{
 .summary {
     font-size: 16px;
  line-height: 20px;
+}
+p{
+    border: 2px dashed red;
 }
 h3{
 font-size: 20px;
@@ -29,9 +36,23 @@ footer{
    padding-top: 2px;
    padding-bottom: 2px;
 } 
- table{
-    color: indianred;
-    border-color: indianred;
+a{
+    color: blue;
+}
+a:hover{
+    text-decoration: underline;
+    color: #000;;
+}
+tr:nth-child(odd) {
+    border: 1px solid rgb(0, 0, 0);
+    border-collapse :collapse ;
+    background-color:red;
+}
+ tr:nth-child(even){
+    border: 1px solid rgb(0, 0, 0);
+    border-collapse :collapse ;
+    background-color:lawngreen; 
+
  }
 section{
     padding: 2px;
@@ -42,4 +63,27 @@ ul{
 li{
     margin-bottom: 5px;
 }
+form label{
+    color:blue;
+}
+input{
+    border: 1px solid blue;
+    width: 150px;
+    padding: 5px;
+}
+textarea{
+    border: 7px solid blue;
+width: 203px;
+margin: 7px;
+}
+
+
+
+
+
+
+
+
+
+
 
