@@ -15,26 +15,25 @@ h1{
     font-size: 16px;
  line-height: 20px;
 }
-p{
-    border: 2px dashed red;
-}
 h3{
 font-size: 20px;
 color: cornflowerblue;
 }
 body{
-   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+margin bottom: 100px;
 }
 footer{
-    text-align: center;
-    padding: 2px 10px;
-    background-color: #f3dcdc
+text-align: center;
+padding: 2px 10px;
+background-color: #f3dcdc
 }
- header{
-   text-align: center;
-   background-color: #f3dcdc;
-   padding-top: 2px;
-   padding-bottom: 2px;
+header{
+text-align: center;
+background-color: #f3dcdc;
+padding-top: 2px;
+padding-bottom: 2px;
+width: 100%;
 } 
 a{
     color: blue;
@@ -46,17 +45,16 @@ a:hover{
 tr:nth-child(odd) {
     border: 1px solid rgb(0, 0, 0);
     border-collapse :collapse ;
-    background-color:red;
 }
  tr:nth-child(even){
     border: 1px solid rgb(0, 0, 0);
     border-collapse :collapse ;
-    background-color:lawngreen; 
-
- }
+}
 section{
     padding: 2px;
+    
 }
+
 ul{
     margin: 0px;
 }
@@ -66,19 +64,29 @@ li{
 form label{
     color:blue;
 }
-input{
+input ,textarea{
     border: 1px solid blue;
     width: 150px;
     padding: 5px;
 }
-textarea{
-    border: 7px solid blue;
-width: 203px;
-margin: 7px;
+
+img{
+    transition: tranform 1s;
+    z-index: 1;
 }
-
-
-
+img:hover{
+    transform: scale(1.05);
+}
+header{
+    display: grid;
+    grid-template-areas: ;
+}
+header h1{
+    grid-row: heading;
+}
+header p{
+    grid-area: p;
+}
 
 
 
